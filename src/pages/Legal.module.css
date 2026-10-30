@@ -1,0 +1,13 @@
+.legal h1 {
+  margin-bottom: 24px;
+  font-size: clamp(36px, 5vw, 56px);
+}
+
+.legal h2 {
+  margin: 40px 0 10px;
+  font-size: 24px;
+}
+
+.legal p {
+  margin-bottom: 12px;
+}

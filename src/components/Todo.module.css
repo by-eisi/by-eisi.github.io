@@ -1,0 +1,6 @@
+.todo {
+  padding: 0 4px;
+  border-radius: 4px;
+  background: var(--todo);
+  color: inherit;
+}

@@ -1,0 +1,11 @@
+.text {
+  font-size: clamp(30px, 5vw, 56px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.14;
+}
+
+.word {
+  display: inline-block;
+  margin-right: 0.25em;
+}

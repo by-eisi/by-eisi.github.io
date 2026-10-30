@@ -1,0 +1,27 @@
+.hero {
+  padding: clamp(72px, 12vw, 136px) var(--gutter) clamp(40px, 6vw, 72px);
+  text-align: center;
+}
+
+.eyebrow {
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.large {
+  font-size: clamp(46px, 9vw, 96px);
+}
+
+.title {
+  font-size: clamp(40px, 7vw, 72px);
+}
+
+.lead {
+  max-width: 640px;
+  margin: 18px auto 0;
+  color: var(--muted);
+  font-size: clamp(19px, 2.4vw, 24px);
+  line-height: 1.33;
+}

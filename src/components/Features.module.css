@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.card {
+  padding: 40px 32px;
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.card h3 {
+  font-size: 26px;
+  line-height: 1.16;
+}
+
+.card p {
+  margin-top: 12px;
+  color: var(--muted);
+}
+
+@media (max-width: 734px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

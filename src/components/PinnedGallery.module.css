@@ -1,0 +1,41 @@
+.section {
+  height: 280vh;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  padding: 0 max(var(--gutter), calc((100vw - 1120px) / 2));
+  will-change: transform;
+}
+
+.track img {
+  width: min(78vw, 980px);
+  max-height: 80vh;
+  object-fit: cover;
+  border-radius: var(--radius);
+  image-rendering: pixelated;
+}
+
+.plain {
+  display: grid;
+  gap: 16px;
+  max-width: 1120px;
+  margin: auto;
+  padding: 0 var(--gutter);
+}
+
+.plain img {
+  border-radius: var(--radius);
+  image-rendering: pixelated;
+}

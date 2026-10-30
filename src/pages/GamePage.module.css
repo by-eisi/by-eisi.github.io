@@ -1,0 +1,10 @@
+.heading {
+  font-size: clamp(32px, 5vw, 56px);
+}
+
+.intro {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: clamp(19px, 2.4vw, 24px);
+  line-height: 1.33;
+}

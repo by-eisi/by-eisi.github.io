@@ -1,0 +1,51 @@
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--glass);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.bar[data-scrolled="true"] {
+  border-bottom-color: var(--hairline);
+}
+
+.inner {
+  max-width: 1024px;
+  height: 48px;
+  margin: auto;
+  padding: 0 var(--gutter);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.brand:hover {
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+}
+
+.links a {
+  color: var(--text);
+  font-size: 13px;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.links a:hover {
+  opacity: 1;
+  text-decoration: none;
+}

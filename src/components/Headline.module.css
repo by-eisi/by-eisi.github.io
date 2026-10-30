@@ -1,0 +1,19 @@
+.line {
+  display: block;
+}
+
+.mask {
+  display: inline-block;
+  overflow: hidden;
+  padding-bottom: 0.14em;
+  margin-bottom: -0.14em;
+  vertical-align: bottom;
+}
+
+.mask + .mask {
+  margin-left: 0.25em;
+}
+
+.word {
+  display: inline-block;
+}
