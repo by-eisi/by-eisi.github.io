@@ -1,5 +1,4 @@
 import { Page } from "../components/Page";
-import { Todo } from "../components/Todo";
 import { STUDIO } from "../lib/motion";
 import styles from "./Legal.module.css";
 
@@ -9,7 +8,8 @@ export function Datenschutz() {
       <section className={`section narrow ${styles.legal}`}>
         <h1>Datenschutz</h1>
         <p>
-          <strong>Verantwortlich:</strong> <Todo>[Name]</Todo>, <Todo>[Anschrift]</Todo>, <Todo>[E-Mail]</Todo>
+          <strong>Verantwortlich:</strong> Ulli Pichler, Sombartstraße 10d, 4040 Linz, Österreich,{" "}
+          <a href="mailto:ulli.pichler04@gmail.com">ulli.pichler04@gmail.com</a>
         </p>
 
         <h2>Diese Website</h2>
@@ -61,7 +61,7 @@ export function Datenschutz() {
           Beschwerden gehen an die österreichische Datenschutzbehörde (dsb.gv.at).
         </p>
         <p>
-          <strong>Stand:</strong> <Todo>[Datum]</Todo>
+          <strong>Stand:</strong> November 2026
         </p>
       </section>
     </Page>

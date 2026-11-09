@@ -1,5 +1,4 @@
 import { Page } from "../components/Page";
-import { Todo } from "../components/Todo";
 import { STUDIO } from "../lib/motion";
 import styles from "./Legal.module.css";
 
@@ -13,22 +12,18 @@ export function Impressum() {
         <p>
           {STUDIO}
           <br />
-          <Todo>[Vor- und Nachname]</Todo>
+          Ulli Pichler
           <br />
-          <Todo>[Straße und Hausnummer]</Todo>
+          Sombartstraße 10d
           <br />
-          <Todo>[PLZ Ort]</Todo>, Österreich
+          4040 Linz, Österreich
         </p>
         <h2>Kontakt</h2>
         <p>
-          E-Mail: <Todo>[E-Mail-Adresse]</Todo>
+          E-Mail: <a href="mailto:ulli.pichler04@gmail.com">ulli.pichler04@gmail.com</a>
         </p>
         <h2>Unternehmensgegenstand</h2>
         <p>Entwicklung und Vertrieb von Computerspielen.</p>
-        <h2>Weitere Angaben</h2>
-        <p>
-          <Todo>[Falls vorhanden: UID-Nummer, Gewerbebehörde, Kammer]</Todo>
-        </p>
       </section>
     </Page>
   );
